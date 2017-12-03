@@ -1,0 +1,648 @@
+#block-body{
+    width: 1420px;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image: url(/images/.jpg);
+}
+
+#block-header{
+   width: auto;
+   height: 100px;
+   border: 1px solid black;
+      background-color:  #F5F5F5;
+}
+
+// Главная Страница
+#block-content{
+   width: auto;
+   height: 5000px;
+   border: 1px solid black;
+}
+
+#block-first{
+   width: auto;
+   height: 600px;
+   border: 1px solid black;
+   background-image: url(/images/first.jpg);
+   background-position: center;
+}
+#img-first{
+   width: 1420px;
+   height: 600px;
+}
+#block-first-text{
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 100px;
+    padding-left: 250px;
+    color: #696969;
+
+  font-size: 20px;
+
+}
+#block-first-bc{
+  margin-top: 150px;
+  margin-left: 350px;
+}
+#block-first-bc:hover{
+  border-radius: 20px;
+border: 3px solid white;
+}
+#block-first-bfa{
+  margin-left: 50px;
+}
+#block-first-bfa:hover{
+     margin-left: 50px;
+  border-radius: 20px;
+border: 3px solid white;
+}
+
+#see_all_services{
+  font:  15px sans-serif;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 650px;
+}
+
+#block-cleaninghome{
+  margin-left: 10px;
+}
+#block-cleaninghome:hover{
+  border-radius: 20px;
+       border: 1px solid white;
+}
+
+#block-officecleaning{
+  width: 600px;
+  height: 280px;
+  margin-left: 10px;
+}
+#block-officecleaning:hover{
+  border-radius: 20px;
+       border: 1px solid white;
+
+}
+#block-vacationhome{
+  width: 750px;
+  height: 300px;
+  margin-left: 10px;
+}
+#block-vacationhome:hover{
+  border-radius: 20px;
+       border: 1px solid white;
+
+}
+
+#block-second{
+   width: auto;
+   height: 450px;
+   border: 1px solid black;
+   background-image: url(/images/second.png);
+   background-position: center;
+}
+#block-third{
+   width: auto;
+   height: 500px;
+   border: 1px solid black;
+   background-image: url(/images/third.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 1440px 500px;
+}
+#block-fourth{
+   width: auto;
+   height: 500px;
+   border: 1px solid black;
+   background-image: url(/images/fourth.png);
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+#block-fifth{
+   width: auto;
+   height: 650px;
+   border: 1px solid black;
+   background-color: #DCDCDC;
+}
+#block-fifth-text{
+    padding-left: 600px;
+    color: #696969;
+  font-size: 20px;
+}
+#block-fifth-image1{
+  margin-left: 100px;
+
+}
+#block-fifth-image1:hover{
+  border-radius: 20px;
+       border: 3px solid white;
+
+}
+#block-fifth-image2{
+margin-left: 50px;
+
+}
+#block-fifth-image2:hover{
+  border-radius: 20px;
+     border: 3px solid white;
+}
+#block-fifth-sas{
+  margin-left: 550px;
+  margin-top: 100px;
+}
+#block-fifth-sas:hover{
+  border-radius: 20px;
+       border: 3px solid white;
+}
+
+#block-sixth{
+   width: auto;
+   height: 600px;
+   border: 1px solid black;
+   background-image: url(/images/sixth.png);
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+#block-seventh{
+   width: auto;
+   height: 600px;
+   border: 1px solid black;
+   background-image: url(/images/seventh2.png);
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+#block-eighth{
+   width: auto;
+   height: 500px;
+   border: 1px solid black;
+   background-image: url(/images/eighth.png);
+   background-repeat: no-repeat;
+   background-position: right;
+      background-color: #DCDCDC;
+
+}
+#block-eighth-text{
+  padding-top: 5%;
+  width: 600px;
+  padding-left: 6%;
+    color: #1a0000;
+  font-family: cursive;
+  font-size: 15px;
+
+}
+#block-eighth-lm{
+margin-top: 10%;
+}
+#block-eighth-lm:hover{
+margin-top: 10%;
+border-radius: 35px;
+}
+
+#block-footer{
+    width: auto;
+    height: 180px;
+    margin-top: 10px;
+    background-color: black;
+}
+/* Home All Services Team About Us Contact Us*/
+#header-top-menu li, ul{
+    list-style-type: none;
+    font: 15px sans-serif;
+    float: left;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;﻿
+}
+
+#header-top-menu a {
+    list-style-type: none;
+    font: 20px sans-serif;
+    color: #34659D;
+    text-decoration: none;
+}
+
+#header-top-menu a:hover {
+    color: #EF662B;
+}
+
+/* Sign In Sign UP*/
+
+#reg-auth-exit{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+#reg-auth-exit > a#active-button{
+    background: linear-gradient(to top, #C3C3C3, #FFFFFF);﻿
+}
+
+#reg-auth-exit a{
+    font: bold 15px sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+    background: linear-gradient(to top, #C3C3C3, #FFFFFF);﻿
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: black;
+}
+
+#reg-auth-title{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+#reg-auth-title > a#active-button{
+    background: linear-gradient(to top, #C3C3C3, #FFFFFF);﻿
+}
+
+#reg-auth-title a.top-auth{
+	font: bold 15px sans-serif;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 7px;
+	background: linear-gradient(to top, #C3C3C3, #FFFFFF);﻿
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    color: black;
+    border-bottom: none;
+}
+
+#reg-auth-title a{
+	font: bold 15px sans-serif;
+	text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+    background: linear-gradient(to top, #C3C3C3, #FFFFFF);﻿
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: black;
+}
+
+#reg-auth-title a:hover{
+    font: bold 15px sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+    background: linear-gradient(to top, #C3C3C3, #FFFFFF);﻿
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: red;
+}
+
+
+/* поисковая строка*/
+#block-search{
+    width: 345px;
+    height: 20px;
+    margin-left: 910px;
+    border: 1px solid black;
+}
+
+#block-search input#input-search{
+    width: 250px;
+    margin-top: 5px;
+    height: 30px;
+    border: 1px solid #E1E1E2;
+    font: 14px sans-serif;
+    padding-left: 25px;
+}
+
+/* поисковая кнопка на вверху*/
+#button-search{
+    width: 58px;
+    height: 30px;
+    border: 1px solid #E1E1E2;
+    margin-left: -4px;
+}
+
+#button-search:hover{
+   color: green;
+}
+
+/* Ссылка Корзины*/
+#block-basket{
+    margin-top: 30px;
+    padding-top: 7px;
+    padding-left: -15px;
+}
+
+#block-basket a{
+    font: bold 15px sans-serif;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #34659D;
+    border-bottom: 1px dashed #34659D;
+}
+
+#block-basket a:hover{
+    border-bottom: none;
+}
+
+#shopping-cart{
+  width: 1000px;
+  height: auto;
+  margin-left: 200px;
+  border: 1px solid black;
+}
+
+/* Sign in*/
+#block-sign_in{
+    width: 170px;
+   height: 40px;
+   border: 1px solid black;
+   margin-top: -20px;
+   margin-left: 400px;
+   float: right;
+}
+
+/* Корзина фото*/
+#block-basket img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -7px;
+}
+
+
+/* Футер телефон*/
+#footer-phone{
+    width: 270px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #A9A9A9;
+}
+
+#footer-phone h4{
+ font: bold 20px sans-serif;
+ margin: 0;
+ color: #A9A9A9;
+ padding-left: 10px;
+}
+
+#footer-phone h3{
+ font: bold 25px sans-serif;
+ margin: 5px 0;
+ color: #A9A9A9;
+ padding-left: 10px;
+}
+
+#footer-phone p{
+ font:  15px sans-serif;
+ margin: 5px 0;
+ padding-left: 10px;
+}
+
+.footer-list{
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.footer-list li {
+    margin-top: 5px;
+}
+
+.footer-list p {
+    font: bold 14px sans-serif;
+    margin-bottom: 10px;
+    color: #A9A9A9;
+}
+
+.footer-list a {
+    font: bold 14px sans-serif;
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+/* фото линии*/
+#bottom-line{
+    width: 1400px;
+    height: 50px;
+    margin-top: -100px;
+}
+
+/*  Страница Регистрации*/
+.h2-title{
+    font: bold 25px sans-serif;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+#block-form-registration{
+    height: 250px;
+}
+
+#form-registration{
+    margin-top: 30px;
+}
+
+#form-registration li {
+    margin-top: 10px;
+}
+
+#form-registration > li > input{
+    height: 30px;
+    width: 320px;
+    font: bold 17px sans-serif;
+    margin-left: 200px;
+    padding-left: 5px;
+    color: black;
+}
+
+#form-registration > li > label {
+    position: absolute;
+    font: bold 15px sans-serif;
+    margin-top: 7px;
+}
+
+.star{
+    font: 16px sans-serif;
+    color: #E35903;
+    position: absolute;
+    margin-left: 188px;
+    margin-top: 10px;
+}
+
+#form_submit{
+    cursor: pointer;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    height: 33px;
+    font: bold 15px sans-serif; 
+    margin-right: 880px;
+}
+
+#form_submit:hover{
+    color: red; 
+}
+
+/* Sign In маленькая калонка*/
+#block_top_auth{
+    border: 1px solid #DBDBDB;
+    width: 210px;
+    height: auto;
+    margin-left: 1035px;
+    margin-top: 35px;
+    background-color: white;
+    position: absolute;
+    /* что бы элементы делать над чемто */
+    z-index: 9999;
+    -moz-box-shadow: 0 0 15px #DBDBDB;
+    -webkit-box-shadow: 0 0 15px #DBDBDB;
+    box-shadow: 0 0 15px #DBDBDB;
+    margin-top: 40px;
+    display: none;
+}
+
+#input_email_pass h3{
+    font: bold 20px sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Когда данные не верные*/
+#message_auth{
+    font: bold 15px sans-serif;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FDE7E7;
+    color: red;
+    display: none;
+}
+
+#input_email_pass > li {
+    margin-top: 7px;
+}
+
+#input_email_pass input#auth_login {
+    width: 180px;
+    height: 25px;
+    font: 15px sans-serif;
+    border: 1px solid #DBDBDB;
+    padding-left: 5px;
+}
+
+#input_email_pass input#auth_pass {
+    width: 180px;
+    height: 25px;
+    font: 15px sans-serif;
+    border: 1px solid #DBDBDB;
+    padding-left: 5px;
+}
+
+#list_auth{
+    margin-top: 12px;
+}
+
+#list_auth li {
+    margin-top: 5px;
+    font: 14px sans-serif;
+    margin-left: -10px;
+}
+
+#list_auth a {
+    color: black;
+    text-decoration: none;
+    margin-left: 3px;
+    border-bottom: 1px dashed black;
+} 
+
+#list_auth a:hover {
+    color: red;
+    border-bottom: none;
+} 
+
+ /* registration form */
+
+content label, content input {
+    width: 30%;
+    display: block;
+    padding: 5px;
+    margin: 0 0 0 20px;
+}
+button {
+    width: 20%;
+    padding: 10px;
+    background: #fff;
+    margin: 10px 0 0 20px;
+    border: 2px solid #4CAF50;
+    margin-bottom: 10px;
+    background: #fff;
+
+}
+button:hover {
+    background: #4CAF50;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
