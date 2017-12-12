@@ -19,5 +19,36 @@ class SiteController
         return true;
     }
 
+     /**
+     * Action for the Contacts page
+     */
+    public function actionContact()
+    {
+
+        // Connect the view
+        require_once(ROOT . '/views/site/contact.php');
+        return true;
+    }
+    
+    /**
+     * Action for the About page
+     */
+    public function actionAbout()
+    {
+        // Connect the view
+        require_once(ROOT . '/views/site/about.php');
+        return true;
+    }
+
+    /**
+     * Action for the Team page
+     */
+    public function actionTeam()
+    {
+        // Connect the view
+        require_once(ROOT . '/views/site/team.php');
+        return true;
+    }
+
    
 }

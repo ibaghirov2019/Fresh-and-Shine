@@ -24,6 +24,11 @@ return array(
     'user/logout' => 'user/logout',
     'cabinet/edit' => 'cabinet/edit',
     'cabinet' => 'cabinet/index',
+
+    // About Website
+    'contacts' => 'site/contact',
+    'about' => 'site/about',
+    'team' => 'site/team',
    
     
     // Home Page

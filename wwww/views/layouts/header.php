@@ -64,7 +64,7 @@
                                         <li class="dropdown"><a href="/allservices/">All Services<i></i></a>
                                         </li>
                                         <li><a href="/about/">About Us</a></li>
-                                        <li><a href="/about/">Team</a></li>
+                                        <li><a href="/team/">Team</a></li>
                                         <li><a href="/contacts/">Contacts</a></li>
                                     </ul>
                                 </div>
