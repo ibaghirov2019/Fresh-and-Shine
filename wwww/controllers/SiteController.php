@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Site Controller
+ */
+class SiteController
+{
+
+    public function actionIndex()
+    {
+        // List of categories for the left menu
+        $categories = Category::getCategoriesList();
+
+        // List of latest products
+        $latestProducts = Product::getLatestProducts(6);
+
+        // Connect the view
+        require_once(ROOT . '/views/site/index.php');
+        return true;
+    }
+
+   
+}
