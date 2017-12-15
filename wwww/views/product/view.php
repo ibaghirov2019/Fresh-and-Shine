@@ -36,8 +36,13 @@
                                 <h2><?php echo $product['name']; ?></h2>
                                 <span>
                                     <span>US $<?php echo $product['price']; ?></span>
-                                    <a href="/cart/add/<?php echo $product['id']; ?>" class="btn btn-default add-to-cart" data-id="<?php echo $product['id']; ?>"><i class="fa fa-shopping-cart"></i>Add to Cart</a>
-                                </span>
+                                    </span>
+                                     <h10>Enter area</h10>
+                                     <form method="post" action="/cart/add/<?php echo $product['id']; ?>" class="fa fa-shopping-cart">
+                                        <input type="number" name="size" value="1"/>
+                                      <input type="submit" value="Add to Cart" class="btn btn-default add-to-cart">
+                                       </form>
+                               
                             </div><!--/product-information-->
                         </div>
                     </div>

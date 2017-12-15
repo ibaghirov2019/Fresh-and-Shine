@@ -44,7 +44,7 @@
                         customers with high quality assembly and installation services.</h2>
                         <p id="learn_more" >
                             <!--   <a class="learn_more" href="sign_in.php">Learn More</a> -->
-                            <a href="coming_soon.php"><img src="/template/images/images/lm.png" id="block-eighth-lm">
+                            <a href="/contacts/"><img src="/template/images/images/lm.png" id="block-eighth-lm">
                             </a>
                         </p>
                     </div>

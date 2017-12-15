@@ -14,6 +14,7 @@ class Cart
         // We bring $ id to type integer
         $id = intval($id);
 
+
         // Empty array for items in the cart
         $productsInCart = array();
 
@@ -26,13 +27,14 @@ class Cart
         // Check if there is already such a product in the basket
         if (array_key_exists($id, $productsInCart)) {
             // If such a product is in the basket, but has been added again, we will increase the quantity by 1
-            $productsInCart[$id] ++;
-        } else {
+            // $productsInCart[$id] += $_POST['size'];
+        } 
+        else {
             // If not, add the id of the new product to the cart with the quantity 1
-            $productsInCart[$id] = 1;
+            $productsInCart[$id] = $_POST['size'];
         }
 
-        // Записываем массив с товарами в сессию
+        // Write an array of goods in the session
         $_SESSION['products'] = $productsInCart;
 
         // Return the number of items in the cart
@@ -49,7 +51,7 @@ class Cart
             // Count and return their number
             $count = 0;
             foreach ($_SESSION['products'] as $id => $quantity) {
-                $count = $count + $quantity;
+                $count = $count + ($quantity / $quantity);
             }
             return $count;
         } else {

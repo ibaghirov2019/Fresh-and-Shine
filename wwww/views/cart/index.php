@@ -14,7 +14,7 @@
                             <tr>
                                 <th>Name</th>
                                 <th>Cost, $</th>
-                                <th>Quantity </th>
+                                <th>Area </th>
                                 <th>Delete</th>
                             </tr>
                             <?php foreach ($products as $product): ?>
@@ -44,7 +44,7 @@
                     <?php else: ?>
                         <p>The basket is empty</p>
                         
-                        <a class="btn btn-default checkout" href="/"><i class="fa fa-shopping-cart"></i> Back to services</a>
+                        <a class="btn btn-default checkout" href="/allservices/"><i class="fa fa-shopping-cart"></i> Back to services</a>
                     <?php endif; ?>
 
                 </div>
