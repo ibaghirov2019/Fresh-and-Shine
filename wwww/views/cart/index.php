@@ -33,10 +33,10 @@
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
-                                <tr>
-                                    <td colspan="4">Total Cost, $:</td>
-                                    <td><?php echo $totalPrice;?></td>
-                                </tr>
+                            <tr>
+                                <td colspan="4">Total Cost, $:</td>
+                                <td><?php echo $totalPrice;?></td>
+                            </tr>
                             
                         </table>
                         

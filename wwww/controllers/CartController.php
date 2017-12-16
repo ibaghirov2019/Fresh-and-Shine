@@ -133,7 +133,7 @@ class CartController
                 $errors[] = 'Invalid phone number';
             }
             if (!User::checkDay($userDay)) {
-                $errors[] = 'Invalid Day should be (01/01/2017)';
+                $errors[] = 'Invalid Day should be (09/01/2007)';
             }
             if (!User::checkTime($userTime)) {
                 $errors[] = 'Invalid Time should be (09:41)';

@@ -1,2 +1,43 @@
-Testing READM
-modifield READMEE
+To run the site on your computer you need:
+
+1) 	You need to download the local server
+   	I advise you to download the program MAMP
+   	You can download the program from this link: https://www.mamp.info/en/downloads/
+	
+2) 	After downloading and installing the program
+   	Open the program (MAMP) —-> Preferences —-> Web Server —-> Document Root: 
+   	Specify the path to the folder: «wwww»
+
+3) 	Then, click Enable Server
+   	After a few seconds, the browser should open the website
+   	If the browser does not open, click on «Open WebStart page»
+
+
+Setting Data Base
+
+1) 	Now you are here: http://localhost:8888/MAMP/?language=ru
+	At the top of the site: Settings —-> phpMyAdmin
+	You will be transferred to the site: http://localhost:8888/phpMyAdmin/?lang=ru
+
+2)   	User accounts —-> Add User Account
+
+	Username: admin
+	Hostname: select localhost
+	Password: 123456
+	
+	Global Privileges: Select all
+
+	Finally add user
+
+
+3) 	Then go to Import
+
+	Import the file: localhost (1).sql
+	Add database
+	
+Open WebSite
+
+1) 	Go back to the site: http://localhost:8888/MAMP/?language=ru
+	And open —-> My site
+	After that the website Fresh and Shine will open
+    

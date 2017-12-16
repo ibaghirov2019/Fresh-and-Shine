@@ -54,7 +54,7 @@ class CabinetController
             $login = $_POST['login'];
             $password = $_POST['password'];
 
-          
+            
             $errors = false;
 
             // Validate the values
@@ -83,7 +83,7 @@ class CabinetController
             }
         }
 
-     
+        
         require_once(ROOT . '/views/cabinet/edit.php');
         return true;
     }

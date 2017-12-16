@@ -22,8 +22,8 @@ class SiteController
      /**
      * Action for the Contacts page
      */
-    public function actionContact()
-    {
+     public function actionContact()
+     {
 
         // Connect the view
         require_once(ROOT . '/views/site/contact.php');
@@ -50,5 +50,5 @@ class SiteController
         return true;
     }
 
-   
+    
 }

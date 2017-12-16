@@ -16,7 +16,7 @@ class User
 
         // test DB
         $sql = 'INSERT INTO user (name, address, email, mobnumber, login, password) '
-                . 'VALUES (:name, :address, :email, :mobnumber, :login, :password)';
+        . 'VALUES (:name, :address, :email, :mobnumber, :login, :password)';
 
         // Receiving and returning results. A prepared query is used
         $result = $db->prepare($sql);
@@ -39,8 +39,8 @@ class User
 
         // Test DB
         $sql = "UPDATE user 
-            SET name = :name, address = :address, email = :email, mobnumber = :mobnumber, login = :login, password = :password
-            WHERE id = :id";
+        SET name = :name, address = :address, email = :email, mobnumber = :mobnumber, login = :login, password = :password
+        WHERE id = :id";
 
         // Receiving and returning results. A prepared query is used
         $result = $db->prepare($sql);
@@ -125,7 +125,7 @@ class User
         return false;
     }
 
-     public static function checkAddress($address)
+    public static function checkAddress($address)
     {
         if (strlen($address) >= 4) {
             return true;
@@ -147,8 +147,8 @@ class User
      /**
      * Checks Day which specified user: not less than 10 characters
      */
-    public static function checkDay($user_day)
-    {
+     public static function checkDay($user_day)
+     {
         if (strlen($user_day) == 10) {
             return true;
         }
@@ -158,8 +158,8 @@ class User
      /**
      * Checks Time which specified user: not less than 10 characters
      */
-    public static function checkTime($user_time)
-    {
+     public static function checkTime($user_time)
+     {
         if (strlen($user_time) == 5 ) {
             return true;
         }
@@ -202,7 +202,7 @@ class User
     /**
      * Checks if the login is not occupied by another user
      */
-     
+    
     public static function checkLoginExists($login)
     {
         // Connect to DB       

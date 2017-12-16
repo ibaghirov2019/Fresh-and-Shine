@@ -106,17 +106,17 @@ class UserController
                 $errors[] = 'Invalid login data';
             } else {
                 // If the data is correct, remember the user (session)
-                 User::auth($userId);
+               User::auth($userId);
 
                 // We redirect the user to the closed part - the cabinet
-                header("Location: /cabinet");
-            }
-        }
+               header("Location: /cabinet");
+           }
+       }
 
         // Connect the view
-        require_once(ROOT . '/views/user/login.php');
-        return true;
-    }
+       require_once(ROOT . '/views/user/login.php');
+       return true;
+   }
 
     /**
      * Delete user data from session

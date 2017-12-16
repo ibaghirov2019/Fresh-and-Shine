@@ -17,8 +17,8 @@ class Product
 
         // The text of the query to the database
         $sql = 'SELECT id, name, price FROM product '
-                . 'WHERE status = "1" ORDER BY id ASC '
-                . 'LIMIT :count';
+        . 'WHERE status = "1" ORDER BY id ASC '
+        . 'LIMIT :count';
 
         // A prepared query is used
         $result = $db->prepare($sql);
@@ -53,8 +53,8 @@ class Product
         $db = Db::getConnection();
 
         $sql = 'SELECT id, name, price FROM product '
-                . 'WHERE status = 1 AND category_id = :category_id '
-                . 'ORDER BY id ASC LIMIT :limit OFFSET :offset';
+        . 'WHERE status = 1 AND category_id = :category_id '
+        . 'ORDER BY id ASC LIMIT :limit OFFSET :offset';
 
         // A prepared query is used
         $result = $db->prepare($sql);

@@ -16,7 +16,7 @@ class Order
 
         // Test
         $sql = 'INSERT INTO product_order (user_name, user_phone, user_day, user_time, user_id, products) '
-                . 'VALUES (:user_name, :user_phone, :user_day, :user_time, :user_id, :products)';
+        . 'VALUES (:user_name, :user_phone, :user_day, :user_time, :user_id, :products)';
 
         $products = json_encode($products);
 
@@ -54,7 +54,7 @@ class Order
         return $ordersList;
     }
 
-  
+    
 
     /**
      * Returns the order with the specified id
@@ -107,14 +107,14 @@ class Order
 
         // Test
         $sql = "UPDATE product_order
-            SET 
-                user_name = :user_name, 
-                user_phone = :user_phone, 
-                user_day = :user_day, 
-                user_time = :user_time, 
-                date = :date, 
-                status = :status 
-            WHERE id = :id";
+        SET 
+        user_name = :user_name, 
+        user_phone = :user_phone, 
+        user_day = :user_day, 
+        user_time = :user_time, 
+        date = :date, 
+        status = :status 
+        WHERE id = :id";
 
         // Receiving and returning results. A prepared query is used
         $result = $db->prepare($sql);

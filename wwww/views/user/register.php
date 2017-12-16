@@ -29,7 +29,7 @@
                             <input type="submit" name="submit" class="btn btn-default" value="Register" />
                         </form>
                     </div><!--/sign up form-->
-                
+                    
                 <?php endif; ?>
                 <br/>
                 <br/>

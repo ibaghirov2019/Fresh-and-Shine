@@ -21,15 +21,17 @@ return array(
     // User:
     'user/register' => 'user/register',
     'user/login' => 'user/login',
+    'user/passrecovery' => 'user/passrecovery',
     'user/logout' => 'user/logout',
     'cabinet/edit' => 'cabinet/edit',
     'cabinet' => 'cabinet/index',
+
 
     // About Website
     'contacts' => 'site/contact',
     'about' => 'site/about',
     'team' => 'site/team',
-   
+    
     
     // Home Page
     'index.php' => 'site/index', // actionIndex in SiteController
