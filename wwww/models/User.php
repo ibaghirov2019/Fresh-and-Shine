@@ -127,7 +127,7 @@ class User
 
     public static function checkAddress($address)
     {
-        if (strlen($address) >= 4) {
+        if (strlen($address) >= 10) {
             return true;
         }
         return false;

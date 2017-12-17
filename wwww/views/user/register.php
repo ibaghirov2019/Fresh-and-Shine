@@ -23,7 +23,7 @@
                             <input type="text" name="name" placeholder="Your Full Name" value="<?php echo $name; ?>"/>
                             <input type="text" name="address" placeholder="Address" value="<?php echo $address; ?>"/>
                             <input type="email" name="email" placeholder="E-mail" value="<?php echo $email; ?>"/>
-                            <input type="text" name="mobnumber" placeholder="Mobile Number" value="<?php echo $mobnumber; ?>"/>
+                            <input type="number" name="mobnumber" placeholder="Mobile Number" value="<?php echo $mobnumber; ?>"/>
                             <input type="text" name="login" placeholder="Login" value="<?php echo $login; ?>"/>
                             <input type="password" name="password" placeholder="Password" value="<?php echo $password; ?>"/>
                             <input type="submit" name="submit" class="btn btn-default" value="Register" />

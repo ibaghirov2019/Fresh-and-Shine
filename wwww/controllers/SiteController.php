@@ -29,6 +29,16 @@ class SiteController
         require_once(ROOT . '/views/site/contact.php');
         return true;
     }
+     /**
+     * Action for the Search page
+     */
+     public function actionSearch()
+     {
+
+        // Connect the view
+        require_once(ROOT . '/views/site/search.php');
+        return true;
+    }
     
     /**
      * Action for the About page

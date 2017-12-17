@@ -47,7 +47,7 @@ class UserController
                 $errors[] = 'Mobile Number must look like (+994 51 123 45 67)';
             }
             if (!User::checkLogin($login)) {
-                $errors[] = 'Login must not be shorter than 4 characters';
+                $errors[] = 'Login must not be shorter than 10 characters';
             }
             if (!User::checkPassword($password)) {
                 $errors[] = 'Password must not be shorter than 6 characters';

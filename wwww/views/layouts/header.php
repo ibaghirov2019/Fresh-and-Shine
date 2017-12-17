@@ -66,6 +66,7 @@
                                 <li><a href="/about/">About Us</a></li>
                                 <li><a href="/team/">Team</a></li>
                                 <li><a href="/contacts/">Contacts</a></li>
+                                <li><a href="/search/">Search</a></li>
                             </ul>
                         </div>
                     </div>

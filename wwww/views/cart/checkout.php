@@ -61,10 +61,10 @@
                                             <p>Mobile Number</p>
                                             <input type="text" name="userPhone" placeholder="" value="<?php echo $userPhone; ?>"/>
 
-                                            <p>Day</p>
+                                            <p>Day (09/01/2007)</p>
                                             <input type="text" name="userDay" placeholder="" value="<?php echo $userDay; ?>"/>
 
-                                            <p>Time</p>
+                                            <p>Time (09:41)</p>
                                             <input type="text" name="userTime" placeholder="" value="<?php echo $userTime; ?>"/>
 
                                             <br/>

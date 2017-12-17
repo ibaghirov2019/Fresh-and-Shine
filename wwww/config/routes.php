@@ -31,6 +31,7 @@ return array(
     'contacts' => 'site/contact',
     'about' => 'site/about',
     'team' => 'site/team',
+    'search' => 'site/search',
     
     
     // Home Page
